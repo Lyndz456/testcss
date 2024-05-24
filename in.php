@@ -107,6 +107,30 @@ print $call['lname'];
 print "<br>";
 define ('LNAME', 'Okama');
 echo LNAME;
+/*Array for storing data
+Indexed array- Arranged using indices*/
+    $color=["Yellow", "Red","Pink","Blue"];
+    
+    print_r($color); /*for typing the data */
+    
+    $user=array("Pete","Mirina","Lydiah");
+    print $user[2];
+    print "<br>";
+//Assosiative array
+$user_data=[
+    "fullname"=>"Alex Okama",
+    "email"=>"AOkama@yahoo.com",
+    "phone"=>"+254011887654",
+];
+    print $user_data["email"];
+
+
+
+
     ?>
+    <pre><!--
+        <?php print_r($user);?>
+    </pre>
+    
 </body>
 </html>
